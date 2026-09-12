@@ -1,0 +1,2 @@
+[Main]
+run -pyf "%@ANatureFormat\open_app.py";

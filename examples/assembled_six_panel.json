@@ -1,0 +1,72 @@
+{
+  "width_mm": 160.0,
+  "height_mm": 120.0,
+  "panels": [
+    {
+      "title": "Panel 1 draft title",
+      "title_font": {"family": "Times New Roman", "size_pt": 14.0, "weight": "normal", "style": "italic"},
+      "annotations": [{"text": "note", "x": 0.25, "y": 0.8, "font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}}],
+      "series": [
+        {"name": "alloy A", "x": [0.0, 1.0, 2.0, 3.0, 4.0], "y": [0.0, 1.1, 2.0, 2.6, 3.1], "marker": "circle", "color": "#D62728"},
+        {"name": "alloy B", "x": [0.0, 1.0, 2.0, 3.0, 4.0], "y": [0.2, 0.8, 1.5, 2.1, 2.4], "marker": "square", "color": "#1F77B4"}
+      ],
+      "x_axis": {"title": "Strain (%)", "line_weight_pt": 2.0, "tick_weight_pt": 1.8, "tick_font": {"family": "Times New Roman", "size_pt": 10.0, "weight": "normal", "style": "italic"}, "title_font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}},
+      "y_axis": {"title": "Stress (MPa)", "line_weight_pt": 2.0, "tick_weight_pt": 1.8, "tick_font": {"family": "Times New Roman", "size_pt": 10.0, "weight": "normal", "style": "italic"}, "title_font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}}
+    },
+    {
+      "title": "Panel 2 draft title",
+      "title_font": {"family": "Times New Roman", "size_pt": 14.0, "weight": "normal", "style": "italic"},
+      "annotations": [{"text": "note", "x": 0.25, "y": 0.8, "font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}}],
+      "series": [
+        {"name": "alloy A", "x": [0.0, 1.0, 2.0, 3.0, 4.0], "y": [0.1, 1.1, 2.0, 2.6, 3.1], "marker": "circle", "color": "#D62728"},
+        {"name": "alloy B", "x": [0.0, 1.0, 2.0, 3.0, 4.0], "y": [0.25, 0.8, 1.5, 2.1, 2.4], "marker": "square", "color": "#1F77B4"}
+      ],
+      "x_axis": {"title": "Strain (%)", "line_weight_pt": 2.0, "tick_weight_pt": 1.8, "tick_font": {"family": "Times New Roman", "size_pt": 10.0, "weight": "normal", "style": "italic"}, "title_font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}},
+      "y_axis": {"title": "Stress (MPa)", "line_weight_pt": 2.0, "tick_weight_pt": 1.8, "tick_font": {"family": "Times New Roman", "size_pt": 10.0, "weight": "normal", "style": "italic"}, "title_font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}}
+    },
+    {
+      "title": "Panel 3 draft title",
+      "title_font": {"family": "Times New Roman", "size_pt": 14.0, "weight": "normal", "style": "italic"},
+      "annotations": [{"text": "note", "x": 0.25, "y": 0.8, "font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}}],
+      "series": [
+        {"name": "alloy A", "x": [0.0, 1.0, 2.0, 3.0, 4.0], "y": [0.2, 1.1, 2.0, 2.6, 3.1], "marker": "circle", "color": "#D62728"},
+        {"name": "alloy B", "x": [0.0, 1.0, 2.0, 3.0, 4.0], "y": [0.3, 0.8, 1.5, 2.1, 2.4], "marker": "square", "color": "#1F77B4"}
+      ],
+      "x_axis": {"title": "Strain (%)", "line_weight_pt": 2.0, "tick_weight_pt": 1.8, "tick_font": {"family": "Times New Roman", "size_pt": 10.0, "weight": "normal", "style": "italic"}, "title_font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}},
+      "y_axis": {"title": "Stress (MPa)", "line_weight_pt": 2.0, "tick_weight_pt": 1.8, "tick_font": {"family": "Times New Roman", "size_pt": 10.0, "weight": "normal", "style": "italic"}, "title_font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}}
+    },
+    {
+      "title": "Panel 4 draft title",
+      "title_font": {"family": "Times New Roman", "size_pt": 14.0, "weight": "normal", "style": "italic"},
+      "annotations": [{"text": "note", "x": 0.25, "y": 0.8, "font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}}],
+      "series": [
+        {"name": "alloy A", "x": [0.0, 1.0, 2.0, 3.0, 4.0], "y": [0.3, 1.1, 2.0, 2.6, 3.1], "marker": "circle", "color": "#D62728"},
+        {"name": "alloy B", "x": [0.0, 1.0, 2.0, 3.0, 4.0], "y": [0.35, 0.8, 1.5, 2.1, 2.4], "marker": "square", "color": "#1F77B4"}
+      ],
+      "x_axis": {"title": "Strain (%)", "line_weight_pt": 2.0, "tick_weight_pt": 1.8, "tick_font": {"family": "Times New Roman", "size_pt": 10.0, "weight": "normal", "style": "italic"}, "title_font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}},
+      "y_axis": {"title": "Stress (MPa)", "line_weight_pt": 2.0, "tick_weight_pt": 1.8, "tick_font": {"family": "Times New Roman", "size_pt": 10.0, "weight": "normal", "style": "italic"}, "title_font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}}
+    },
+    {
+      "title": "Panel 5 draft title",
+      "title_font": {"family": "Times New Roman", "size_pt": 14.0, "weight": "normal", "style": "italic"},
+      "annotations": [{"text": "note", "x": 0.25, "y": 0.8, "font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}}],
+      "series": [
+        {"name": "alloy A", "x": [0.0, 1.0, 2.0, 3.0, 4.0], "y": [0.4, 1.1, 2.0, 2.6, 3.1], "marker": "circle", "color": "#D62728"},
+        {"name": "alloy B", "x": [0.0, 1.0, 2.0, 3.0, 4.0], "y": [0.4, 0.8, 1.5, 2.1, 2.4], "marker": "square", "color": "#1F77B4"}
+      ],
+      "x_axis": {"title": "Strain (%)", "line_weight_pt": 2.0, "tick_weight_pt": 1.8, "tick_font": {"family": "Times New Roman", "size_pt": 10.0, "weight": "normal", "style": "italic"}, "title_font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}},
+      "y_axis": {"title": "Stress (MPa)", "line_weight_pt": 2.0, "tick_weight_pt": 1.8, "tick_font": {"family": "Times New Roman", "size_pt": 10.0, "weight": "normal", "style": "italic"}, "title_font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}}
+    },
+    {
+      "title": "Panel 6 draft title",
+      "title_font": {"family": "Times New Roman", "size_pt": 14.0, "weight": "normal", "style": "italic"},
+      "annotations": [{"text": "note", "x": 0.25, "y": 0.8, "font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}}],
+      "series": [
+        {"name": "alloy A", "x": [0.0, 1.0, 2.0, 3.0, 4.0], "y": [0.5, 1.1, 2.0, 2.6, 3.1], "marker": "circle", "color": "#D62728"},
+        {"name": "alloy B", "x": [0.0, 1.0, 2.0, 3.0, 4.0], "y": [0.45, 0.8, 1.5, 2.1, 2.4], "marker": "square", "color": "#1F77B4"}
+      ],
+      "x_axis": {"title": "Strain (%)", "line_weight_pt": 2.0, "tick_weight_pt": 1.8, "tick_font": {"family": "Times New Roman", "size_pt": 10.0, "weight": "normal", "style": "italic"}, "title_font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}},
+      "y_axis": {"title": "Stress (MPa)", "line_weight_pt": 2.0, "tick_weight_pt": 1.8, "tick_font": {"family": "Times New Roman", "size_pt": 10.0, "weight": "normal", "style": "italic"}, "title_font": {"family": "Times New Roman", "size_pt": 11.0, "weight": "normal", "style": "italic"}}
+    }
+  ]
+}

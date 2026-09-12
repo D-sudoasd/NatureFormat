@@ -1,0 +1,4 @@
+[Main]
+; Nature 一键排版 — Origin App
+; Clicking the Apps Gallery icon opens the dialog and restyles the active graph.
+run -pyf "%@ANatureFormat\open_app.py";
