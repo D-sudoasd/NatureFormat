@@ -1,52 +1,22 @@
-<p align="center">
-  <img src="assets/readme/hero.png" width="100%" alt="NatureFormat — Apply consistent page and typography settings to Origin figures / 统一 Origin 图件的页面与字体设置. Conceptual illustration / 概念插图。">
-</p>
-
 # NatureFormat
 
-**Apply consistent page and typography settings to Origin figures**
+**为已经组好的 Origin / OriginPro 图件统一页面尺寸、面板布局、字体和坐标轴。**
 
-**统一 Origin 图件的页面与字体设置**
+An Origin App and Python tool for formatting assembled figures. The layout operation preserves data values, marker shapes, curve colors, and axis-title wording.
 
-[Overview / 项目概览](#overview--项目概览) · [Start / 开始使用](#start--开始使用) · [Reference / 详细说明](#reference--详细说明)
+[安装到 Origin](#在-origin-pro-里用) · [直接打开界面](#先看界面不经过画廊) · [命令行示例](#命令行--开发) · [六面板输入示例](examples/assembled_six_panel.json)
 
-## Overview / 项目概览
+<img src="origin_app/ui_preview.png" width="480" alt="仓库提供的 NatureFormat 排版界面预览，包含栏宽、布局与字体设置">
 
-Format an already assembled Origin graph with consistent page dimensions, panel layout, fonts and axes. Keep data values, marker shapes, curve colors and axis-title wording intact.
-
-为已组装的 Origin 图件统一页面尺寸、面板布局、字体和坐标轴，保留数据值、标记形状、曲线颜色及轴标题文字。
-
-- **Origin App workflow** — 从当前 Graph 窗口进入排版。
-- **Page and panel layout** — 选择栏目尺寸与面板排列。
-- **Typography controls** — 调整字体、标注、轴体与刻度。
-
-## Start / 开始使用
-
-Follow the Origin installation steps below / 按下文步骤安装到 Origin。
-
-To open the interface from the source checkout / 从源码打开界面：
-
-```powershell
-py -3 -m natureformat ui
+```mermaid
+flowchart TD
+  A[已组好的 Origin Graph] --> B[选择栏宽与面板布局]
+  B --> C[检查图层数量与排版参数]
+  C --> D[应用页面、字体和轴体设置]
+  D --> E[在 Origin 中继续编辑与导出]
 ```
 
-Apply formatting to a graph whose panels have already been assembled. This is an independent tool, not a journal endorsement.
-
-请对已完成面板组装的图件应用格式；本项目为独立工具，不代表期刊认可。
-
-*Cover: AI-generated conceptual illustration. 封面为 AI 生成的概念插图。*
-
-## Reference / 详细说明
-
-**Origin / OriginPro Apps 画廊插件：组好图后一键套用 Nature 栏目尺寸与字体。**
-
-这是给 **Origin / OriginPro** 用的 **Apps 画廊插件**（App），不是 Origin 安装包本身，也不是改 Origin 内核的 DLL。
-
-组好图 → 点 Apps 图标 → 选单栏或双栏和布局 → **一键套用**。只改页面尺寸、字体和轴体，**不改数据、圆形/方形标记、配色**。
-
-<p align="center">
-  <img src="origin_app/ui_preview.png" alt="Nature 一键排版界面" width="480">
-</p>
+先完成数据作图和面板组装，再应用排版。单栏为 89 mm，双栏为 183 mm；参数和可修改范围见下表。项目为独立工具，使用者仍需核对目标期刊的现行图件要求。
 
 ## 功能
 
