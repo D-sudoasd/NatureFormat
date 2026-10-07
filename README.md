@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/readme/hero.png" width="100%" alt="NatureFormat — Apply consistent page and typography settings to Origin figures / 统一 Origin 图件的页面与字体设置. Conceptual illustration / 概念插图。">
+</p>
+
 # NatureFormat
 
 **为已经组好的 Origin / OriginPro 图件统一页面尺寸、面板布局、字体和坐标轴。**
@@ -8,13 +12,12 @@ An Origin App and Python tool for formatting assembled figures. The layout opera
 
 <img src="origin_app/ui_preview.png" width="480" alt="仓库提供的 NatureFormat 排版界面预览，包含栏宽、布局与字体设置">
 
-```mermaid
-flowchart TD
-  A[已组好的 Origin Graph] --> B[选择栏宽与面板布局]
-  B --> C[检查图层数量与排版参数]
-  C --> D[应用页面、字体和轴体设置]
-  D --> E[在 Origin 中继续编辑与导出]
-```
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/readme/diagrams/workflow-readme-md-1-mobile.svg">
+  <img src="assets/readme/diagrams/workflow-readme-md-1.svg" width="100%" alt="NatureFormat — workflow schematic / 流程示意图">
+</picture>
+
+<sub>[Editable diagram source / 可编辑图源](assets/readme/diagrams/workflow-readme-md-1.mmd)</sub>
 
 先完成数据作图和面板组装，再应用排版。单栏为 89 mm，双栏为 183 mm；参数和可修改范围见下表。项目为独立工具，使用者仍需核对目标期刊的现行图件要求。
 
