@@ -21,6 +21,18 @@ An Origin App and Python tool for formatting assembled figures. The layout opera
 
 先完成数据作图和面板组装，再应用排版。单栏为 89 mm，双栏为 183 mm；参数和可修改范围见下表。项目为独立工具，使用者仍需核对目标期刊的现行图件要求。
 
+## 原理示意 / Principle schematic
+
+<p align="center">
+  <img src="assets/readme/principle.png" width="100%" alt="已组装图件的页面、面板间距与字体统一 — conceptual schematic / 概念示意图">
+</p>
+
+*概念示意：NatureFormat 对已经组装的 Origin 图件调整页面、面板位置、字体和轴线；数据值、标记形状、曲线颜色及轴标题文字保持原有内容。示意面板不是实验结果。*
+
+*Conceptual schematic: NatureFormat formats page size, panel placement, typography and axis strokes for assembled Origin figures while preserving data values, marker shapes, curve colors and axis-title wording. Synthetic panels are not experimental results.*
+
+[查看完整示意图 / View full-size schematic](assets/readme/principle.png)
+
 ## 功能
 
 | 会改 | 不改 |
